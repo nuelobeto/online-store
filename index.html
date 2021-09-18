@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <script src="https://kit.fontawesome.com/76c43bd105.js" crossorigin="anonymous"></script>
+  <title>online store</title>
+</head>
+
+<body id="main-page">
+  <div class="app-container">
+    <header>
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-bars"></i>
+          <h3 class="logo">Nuel's</h3>
+        </div>
+        <div class="icons">
+          <i class="fas fa-user-circle"></i>
+          <a href="#" onclick="showCart()">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="total-items">0</span>
+          </a>
+        </div>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="search items" />
+        <button id="searchBtn">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+    </header>
+    <section>
+      <p>Products</p>
+      <div class="products">
+        
+      </div>
+    </section>
+    <div class="cart" id="cart">
+      <h3 class="total">Total: $0</h3>
+      <div class="cart-items">
+        
+      </div>
+    </div>  
+ <script src="./products.js"></script>
+ <script src="./script.js"></script>
+</body>
+
+</html>
